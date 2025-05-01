@@ -1,0 +1,127 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+    text-align: center;
+    align-items: center;
+    
+}
+h1{
+    background-color: #7EC8E3;
+    height: 10vmin;
+    line-height: 10vmin;
+    
+
+}
+.choices{
+    display: flex;
+    object-fit: cover;
+    
+    justify-content: center;
+    background-color: #98c1D9;
+    height: 400px;
+    gap: 5rem;
+
+}
+#rock{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#scissor{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#paper{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#rock img{
+    height: 207px;
+    width: 207px;
+    
+    border-radius: 50%;
+}
+#scissor img{
+    height: 207px;
+    width: 207px;
+    
+    border-radius: 50%;
+}
+#paper img{
+    height: 207px;
+    width: 207px;
+    
+    border-radius: 50%;
+}
+#rock:hover{
+    background-color: black;
+    opacity: 50%;
+    cursor: pointer;
+
+}
+#paper:hover{
+    background-color: black;
+    opacity: 50%;
+    cursor: pointer;
+
+}
+#scissor:hover{
+    
+        background-color: black;
+        opacity: 50%;
+        cursor: pointer;
+
+    
+}
+.scoreboard{
+    background-color: #98c1D9;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    gap: 15rem;
+    font-weight: bold;
+    font-size: xx-large;
+}
+#message{
+
+    
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    
+    ;
+    background-color: #98c1D9;
+    margin-bottom: 10px;
+    
+}
+#no{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    height: 60px;
+    border: solid black;
+    background-color: #7681B3;
+    font-weight: bold;
+    font-size: larger;
+}
